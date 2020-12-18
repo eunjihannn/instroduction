@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Glegoo', serif;
+}
+
+body{
+    background-color: rgb(153, 170, 145);
+}
+
+.teamtwomain{
+    padding: 50px;
+}
+
+.top{
+    padding-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: rgb(53, 54, 30);
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+}
+
+#teamtwo{
+    padding: 15px;
+    border: 1px solid  rgb(53, 54, 30);
+}
+
+.text>div{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(48, 49, 28);
+    font-size: 18px;
+    letter-spacing: 1px;
+}

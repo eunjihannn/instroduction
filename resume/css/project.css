@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Glegoo', serif;
+}
+
+body{
+    background-color: rgb(153, 170, 145);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    padding-top: 13px;
+    padding-left: 30px;
+    font-size: 100px;
+    /* font-weight: bold; */
+    letter-spacing: 10px;
+    color: rgb(53, 54, 30);
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project{
+    width: 32%;
+    height: 700px;
+    /* padding: 20px; */
+    border: 1px solid  rgb(53, 54, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(35, 36, 20);
+}
+
+.pImg{
+    padding-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s;
+}
+
+.project:hover{
+    cursor: pointer;
+}
+
+.project:hover>.pImg{
+    width: 95%;
+}
+
+
+.pTitle{
+    font-size: 40px;
+    padding-left: 35px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}   
+
+.pText{
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
