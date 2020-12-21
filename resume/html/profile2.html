@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>___profile</title>
     <link rel="stylesheet" href="../css/profile2.css">
 </head>
+
 <body>
     <!-- <div class="main">
         <div class="topBox">
@@ -25,27 +27,76 @@
         </div>
     </div> -->
     <table border="1" id="tbl">
-        <tr>
-            <td class="subBox"></td>
-            <td class="middleBox">about me</td>
-            <td class="subBox"></td>
+        <tr class="top">
+            <td class="subBox">
+                <div class="goMain" onclick="window.history.back()">main</div>
+            </td>
+            <td class="middleBox title">about me</td>
+            <td class="subBox">
+                <div class="goMain">contact</div>
+            </td>
         </tr>
         <tr class="middle">
             <td class="subBox myPic">
-                <img src="../img/이력서사진수정jpg.jpg" height="400px" width="300px">
+                <!-- <img id="pic" src="../img/이력서사진수정jpg.jpg" height="400px" width="300px"> -->
             </td>
-            <td class="middleBox">
-                <video autoplay controls loop muted poster="aaa" preload="bbb" width="650px" height="450px">
-                    <source src="../img/TEAMTWOPROJECTVIDEO1.mp4" type="yyy">
-                  </video>
+            <td class="middleBox mainBox">
+                <div class="first">
+                    <div class="imgs">
+                        <img src="../img/KakaoTalk_20201221_162040782_02.jpg" alt="사진" width="250px" height="250px">
+                        <img src="../img/KakaoTalk_20201218_012102870.jpg" alt="사진" width="250px" height="250px">
+                        <img src="../img/KakaoTalk_20201221_162040782_09.jpg" alt="사진" width="250px" height="250px">
+
+                    </div>
+                    <div id="subTitle">"새로운 도약"</div>
+                    <div>저는 그 동안 서비스업에 종사하다가 웹 개발자라는 새로운 꿈을 꾸고 있습니다.</div>
+                    <div>
+                        직업 교육 기관을 통해 JAVA기반 웹 개발자 과정을 수료하였고, 유튜브 강의를 통해 공부를 하고 있습니다.
+                    </div>
+                   
+                </div>
+                <div class="second">
+                    <div class="toggle">
+                        <div class="blockMe">BIRTH</div>
+                        <div class="hideMe">1995. 02</div>
+                    </div>
+                    <div class="toggle">
+                        <div class="blockMe">ADDRESS</div>
+                        <div class="hideMe">성남시 분당구</div>
+                    </div>
+                    <div class="toggle">
+                        <div class="blockMe">EDUCATION</div>
+                        <div class="hideMe smallFont">부천대학교 졸업<br>그린 아카데미
+                        <br>웹개발자 과정 수료</div>
+                    </div>
+                    <div class="toggle">
+                        <div class="blockMe">MBTI</div>
+                        <div class="hideMe">ESFJ<br>사교적인 외교관</div>
+                    </div>
+                    <div class="toggle">
+                        <div class="blockMe">E-MAIL</div>
+                        <div class="hideMe smallFont">dmswl3846<br>@hanmail.net</div>
+                    </div>
+                    <!-- <div><strong>BIRTH</strong> _ 1995. 02.</div>
+                    <div><strong>혈액형</strong> _ A형</div>
+                    <div><strong>학력</strong> _ 부천대학교 졸업</div>
+                    <div><strong>거주지</strong> _ 성남시 분당구</div>
+                    <div><strong>이메일</strong> _ dmswl3846@hanmail.net</div>
+                    <div><strong>교육사항</strong> _ 자바기반 웹 개발자 과정 이수</div> -->
+                </div>
+
             </td>
             <td class="subBox"></td>
         </tr>
-        <tr>
+        <tr class="bottom">
             <td class="subBox"></td>
-            <td class="middleBox">HELLO</td>
+            <td class="middleBox">
+                <img class="direction" src="../img/left.png" alt="" width="30px" height="30x">
+                <img class="direction" src="../img/right.png" alt="" width="30px" height="30px">
+            </td>
             <td class="subBox"></td>
         </tr>
     </table>
 </body>
+
 </html>
