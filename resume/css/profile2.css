@@ -11,10 +11,8 @@
 body{
     /* background-color: rgba(255, 180, 180, 0.76); */
     background-color:  #fadfbf;
-    /* background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
-    background: linear-gradient(to right, #8CA6DB, #B993D6); */
-    background: -webkit-linear-gradient(to right,   #fdbbbb, #fadfbf);
-    background: linear-gradient(to right,#fdbfbf, #fadfbf);
+    background: -webkit-linear-gradient(to right,   #fff4f4, #f7e3ca);
+    background: linear-gradient(to right,#fff0f0, #fae5cc);
 }
 
 .title{
@@ -74,7 +72,8 @@ body{
 
 .goMain:hover{
     cursor: pointer;
-    color: antiquewhite;
+    color: rgb(58, 58, 58);
+    text-decoration: underline;
 }
 
 /* .myPic{
@@ -140,14 +139,15 @@ body{
     width: 9vw;
     height: 8vh;
     margin: 20px;
-    background-color: rgba(255, 255, 255, 0.575);
+    /* background-color: rgba(255, 255, 255, 0.575); */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: darkgray;
     font-size: 25px;
-    border: solid 1px darkgray;
+    border-top: solid 1px darkgray;
+    border-bottom: solid 1px darkgray;
     transition: all 1s;
     font-size: 20px;
 }
