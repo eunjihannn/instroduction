@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Josefin+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 
 
 *{
@@ -49,7 +50,7 @@ body{
 .sidebar{
     position: fixed;
     float: right;
-    top: 630px;
+    top: 430px;
     right: 30px;
     padding: 7px;
     display: flex;
@@ -58,7 +59,7 @@ body{
 
 .btn{
     width: 80px;
-    height: 80px;
+    height: 40px;
     border: 1px solid black;
     background-color: rgba(34, 139, 34, 0.089);
     text-transform: uppercase;
@@ -93,4 +94,142 @@ body{
 
 .list>li:hover{
     cursor: pointer;
+}
+
+.main{
+    margin: 100px 230px;
+}
+
+.subTitle{
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Glegoo', serif;
+    letter-spacing: 5px;
+}
+
+.line{
+    margin-left: 5px;
+    width: 270px;
+    height: 3px;
+    background-color: forestgreen;
+}
+
+.textBox{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textBox>img{
+    position: relative;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 90px;
+    opacity: 80%;
+    transition: all 0.5s;
+}
+
+.textBox>img:hover{
+    opacity: 60%;
+}
+
+.text{
+    margin-left: 120px;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+#java:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(56, 56, 56);
+}
+
+#green{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.listBox{
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+}
+
+.eduList{
+    /* margin-left: 120px; */
+    list-style: circle;
+    width: 300px;
+   
+}
+
+.eduList>li{
+    line-height: 34px;
+    width: 300px;
+    margin-right: 0px;
+}
+
+fieldset{
+    margin: 300px auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 35px;
+    width: 1200px;
+    padding: 30px;
+    text-align: center;
+}
+
+legend{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 15px;
+    border: 1px solid rgb(155, 155, 155);
+    color: forestgreen;
+}
+
+.videoList{
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.videoBox{
+    padding: 20px;
+    width: 640px;
+    height: 460px;
+    border: 1px solid black;
+    background-color: rgba(217, 255, 217, 0.103);
+}
+
+iframe{
+    border: 1px solid black;
+}
+
+.videoTitle{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    color: forestgreen;
+    font-family: 'Hi Melody', cursive;
+}
+
+.videoText{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Hi Melody', cursive;
 }
