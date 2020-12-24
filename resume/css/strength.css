@@ -93,3 +93,12 @@ body{
 .list>li:hover{
     cursor: pointer;
 }
+
+.mainBox{
+    margin: 100px 250px;
+}
+
+.subTitle{
+    font-size: 40px;
+    letter-spacing: 5px;
+}

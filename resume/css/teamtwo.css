@@ -8,16 +8,13 @@
 }
 
 body{
-    background-color: rgb(153, 170, 145);
-}
-
-.teamtwomain{
-    padding: 50px;
+    background-color: #f7f4f0;
 }
 
 .top{
-    padding-left: 30px;
-    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 55px;
     font-weight: bold;
     letter-spacing: 10px;
     color: rgb(53, 54, 30);
@@ -25,14 +22,60 @@ body{
     text-transform: uppercase;
 }
 
-#teamtwo{
-    padding: 15px;
-    border: 1px solid  rgb(53, 54, 30);
+.mainBox{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
 
-.text>div{
-    font-family: 'Nanum Gothic', sans-serif;
-    color: rgb(48, 49, 28);
-    font-size: 18px;
-    letter-spacing: 1px;
+.innerBox{
+    width: 70%;
+    height: 250px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid  rgb(53, 54, 30);
+    transition: all 0.5s;
+}
+
+.innerBox:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.innerText{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(53, 54, 30);
+    text-transform: uppercase;
+    font-family: 'Glegoo','Nanum Gothic', sans-serif;
+}
+
+.first{
+    background-image: url(../img/mainInterior23.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    display: table;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.second{
+    background-image: url(../img/mainInterior18.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    display: table;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 70px;
 }
