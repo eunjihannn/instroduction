@@ -93,3 +93,96 @@ body{
 .list>li:hover{
     cursor: pointer;
 }
+
+.mainBox{
+    margin: 100px 300px;
+}
+
+.tech{
+    min-height: 500px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.techInner{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerTitle{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Glegoo', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    /* color: rgb(158, 91, 158); */
+}
+
+.techList{
+    display: flex;
+    flex-direction: row;
+}
+
+.techList>ul{
+    list-style: none;
+}
+
+.techList>ul>li{
+    font-size: 20px;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-content: center;
+    align-items: center;
+}
+
+.square>div{
+    margin-right: 20px;
+}
+
+.empty{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.full{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(128, 0, 128, 0.473);
+    border: 1px solid black;
+}
+
+.my{
+    display: flex;
+    flex-direction: row;
+}
+
+#myPic{
+    margin-left: 50px;
+    border-bottom: 1px dotted black;
+}
+
+#myText{
+    width: 60%;
+    height: 160px;
+    padding: 20px 50px;
+    margin-left: 100px;
+    border: 1px solid rgb(151, 151, 151);
+    letter-spacing: 2px;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
