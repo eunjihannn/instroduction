@@ -101,7 +101,7 @@ body{
 .innerBox{
     display: flex;
     flex-direction: row;
-    margin-bottom: 120px;
+    margin-bottom: 130px;
 }
 
 .innerText{

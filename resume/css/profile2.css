@@ -176,3 +176,7 @@ body{
 .smallFont{
     font-size: 17px;
 }
+
+#contact{
+    display: none;
+}
